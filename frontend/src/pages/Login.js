@@ -30,7 +30,7 @@ const handleLogIn=async (e)=>{
 
     }
     try{
-        const url="https://auth-mern-three.vercel.app/auth/Login";
+        const url="https://auth-mern-three.vercel.app/auth/login";
         const response=await fetch(url,{
             method:"POST",
             headers:{
