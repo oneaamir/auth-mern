@@ -30,7 +30,7 @@ const handleLogIn=async (e)=>{
 
     }
     try{
-        const url="http://localhost:8080/auth/Login";
+        const url="https://auth-mern-chi.vercel.app/auth/Login";
         const response=await fetch(url,{
             method:"POST",
             headers:{
